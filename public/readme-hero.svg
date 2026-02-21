@@ -1,0 +1,34 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1040" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD9B8"/>
+      <stop offset="0.45" stop-color="#DDEEFF"/>
+      <stop offset="1" stop-color="#DCF7F0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="300" y1="110" x2="900" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173A56"/>
+      <stop offset="1" stop-color="#2D7B88"/>
+    </linearGradient>
+    <filter id="shadow" x="190" y="60" width="820" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#20313D" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="36" fill="url(#bg)"/>
+  <circle cx="220" cy="108" r="70" fill="#F49E3F" fill-opacity="0.6"/>
+  <circle cx="1020" cy="92" r="54" fill="#89B6F7" fill-opacity="0.5"/>
+  <g filter="url(#shadow)">
+    <rect x="230" y="100" width="740" height="320" rx="26" fill="url(#card)"/>
+  </g>
+  <rect x="270" y="136" width="250" height="28" rx="14" fill="#F6FBFF" fill-opacity="0.22"/>
+  <rect x="270" y="182" width="420" height="16" rx="8" fill="#F6FBFF" fill-opacity="0.28"/>
+  <rect x="270" y="210" width="370" height="16" rx="8" fill="#F6FBFF" fill-opacity="0.18"/>
+  <text x="270" y="290" fill="#FFFFFF" font-family="Outfit, Arial, sans-serif" font-size="84" font-weight="700">21.4°C</text>
+  <text x="274" y="330" fill="#CBE8F1" font-family="Outfit, Arial, sans-serif" font-size="24" font-weight="500">London • Mild Conditions</text>
+  <rect x="720" y="156" width="210" height="220" rx="18" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="744" y="188" width="120" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.6"/>
+  <rect x="744" y="214" width="150" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.35"/>
+  <rect x="744" y="246" width="166" height="12" rx="6" fill="#7ED0A2"/>
+  <rect x="744" y="270" width="144" height="12" rx="6" fill="#F0C34E"/>
+  <rect x="744" y="294" width="132" height="12" rx="6" fill="#8EB8FF"/>
+  <text x="744" y="346" fill="#D5F0FF" font-family="Outfit, Arial, sans-serif" font-size="16">Forecast + History + Current</text>
+</svg>
