@@ -1,0 +1,21 @@
+{
+  "name": "employee-weather-view",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "patch:vite": "node ./scripts/patch-vite-crypto.cjs",
+    "postinstall": "npm run patch:vite",
+    "dev": "npm run patch:vite && vite",
+    "build": "npm run patch:vite && vite build",
+    "preview": "npm run patch:vite && vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.10"
+  }
+}
