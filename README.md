@@ -6,6 +6,11 @@ React + Vite frontend that consumes the `employee-weather-api` weather endpoints
 - `GET /api/v1/weather/forecast/{location}/{days}`
 - `GET /api/v1/weather/history/{location}/{date}`
 
+## API Repositories
+
+- [employee-weather-api](https://github.com/Vheekey/employee-weather-api)
+- [location-sentiment-api](https://github.com/Vheekey/location-sentiment-api)
+
 ![Dashboard Hero](./public/readme-hero.svg)
 
 ## Highlights
